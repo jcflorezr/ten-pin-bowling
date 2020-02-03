@@ -1,23 +1,24 @@
 # Ten-pin Bowling App
 
-### Prerequisites to execute it:
-* Java 11 must have been installed on the running machine.
-* Docker must have been installed on the running machine as this project implements [TestContainers](https://www.testcontainers.org/) library for running end to end tests and integration tests.
+This app is implemented following the principles suggested by the [Hexagonal Architecture](https://dzone.com/articles/hexagonal-architecture-what-is-it-and-how-does-it).
+This app implements some Java 8 features as Lambda functions, Streams and Optionals.
 
+### Prerequisites to execute it:
+* Java 8 must have been installed on the running machine.
 
 ### How to execute it: 
-* executing the `./mvnw clean install` command to run all the tests (end to end, integration and unit tests).
-* executing the `./mvnw clean spring-boot:run` command to lift up the entire application in order to consume the APIs and the web page available.
-* Once the entire app is up and running by executing the previous command:
-    * To test the part 1, open a browser and type `http://localhost:8080`.
-    * To test the part 2, there is a postman collection attached to this project in the root directory, its name is `zem.postman_collection.json` and it has configured all the requests specified in the test document.
-
+* running the main class [com.bowling.EntryPoint.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/main/java/com/bowling/EntryPoint.java) passing the *ABSOLUTE FILE PATH* as argument. An example of absolute path:
+    * Unix `/home/user/Documents/folder-containing-scores-file/scores-file`
+    * Windows `C:\user\Documents\folder-containing-scores-file\scores-file`
+* executing the `./mvnw clean install` command to run all the tests (integration and unit tests).
 
 ### Test suite:
 * Unit tests:
-    * [com.test.blog.controller.PortfolioControllerTest.java](https://github.com/jcflorezr/portfolio-app/tree/master/src/test/java/com/test/portfolio/controller/PortfolioControllerTest.java)
-    * [com.test.blog.service.PortfolioServiceImplTest.java](https://github.com/jcflorezr/portfolio-app/tree/master/src/test/java/com/test/portfolio/service/PortfolioServiceImplTest.java)
+    * [com.bowling.adapter.dto.ScoreRowDTOTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/adapter/dto/ScoreRowDTO.java)
+    * [com.bowling.adapter.parser.ScoreParserImplTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/adapter/parser/ScoreParserImplTest.java)
+    * [com.bowling.adapter.printer.GamePrinterImplTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/adapter/printer/GamePrinterImplTest.java)
+    * [com.bowling.domain.entity.model.GameScoreTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/domain/entity/model/GameScoreTest.java)
+    * [com.bowling.domain.entity.model.ScoreTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/domain/entity/model/ScoreTest.java)
+    * [com.bowling.domain.calculator.GameScoreCalculatorImplTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/domain/calculator/GameScoreCalculatorImplTest.java)
 * Integration tests:
-    * [com.test.blog.repository.PortfolioRepositoryIntegrationTest.java](https://github.com/jcflorezr/portfolio-app/tree/master/src/test/java/com/test/portfolio/repository/PortfolioRepositoryIntegrationTest.java)
-* End to end tests:
-    * [com.test.blog.e2e.PortfolioEndToEndTest.java](https://github.com/jcflorezr/portfolio-app/tree/master/src/test/java/com/test/portfolio/e2e/PortfolioEndToEndTest.java) 
+    * [com.bowling.application.GameBoardGeneratorImplIntegrationTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/application/GameBoardGeneratorImplIntegrationTest.java)

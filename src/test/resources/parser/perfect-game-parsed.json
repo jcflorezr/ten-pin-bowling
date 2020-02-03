@@ -1,0 +1,93 @@
+[
+  [
+    {
+      "frame": 1,
+      "playerName": "Jeff",
+      "pinFalls": [
+        10
+      ],
+      "numBonusPinFalls": 2
+    },
+    {
+      "frame": 2,
+      "playerName": "Jeff",
+      "pinFalls": [
+        10
+      ],
+      "numBonusPinFalls": 2
+    },
+    {
+      "frame": 3,
+      "playerName": "Jeff",
+      "pinFalls": [
+        10
+      ],
+      "numBonusPinFalls": 2
+    },
+    {
+      "frame": 4,
+      "playerName": "Jeff",
+      "pinFalls": [
+        10
+      ],
+      "numBonusPinFalls": 2
+    },
+    {
+      "frame": 5,
+      "playerName": "Jeff",
+      "pinFalls": [
+        10
+      ],
+      "numBonusPinFalls": 2
+    },
+    {
+      "frame": 6,
+      "playerName": "Jeff",
+      "pinFalls": [
+        10
+      ],
+      "numBonusPinFalls": 2
+    },
+    {
+      "frame": 7,
+      "playerName": "Jeff",
+      "pinFalls": [
+        10
+      ],
+      "numBonusPinFalls": 2
+    },
+    {
+      "frame": 8,
+      "playerName": "Jeff",
+      "pinFalls": [
+        10
+      ],
+      "numBonusPinFalls": 2
+    },
+    {
+      "frame": 9,
+      "playerName": "Jeff",
+      "pinFalls": [
+        10
+      ],
+      "numBonusPinFalls": 2
+    },
+    {
+      "frame": 10,
+      "playerName": "Jeff",
+      "pinFalls": [
+        10,
+        10
+      ],
+      "numBonusPinFalls": 1
+    },
+    {
+      "frame": 11,
+      "playerName": "Jeff",
+      "pinFalls": [
+        10
+      ],
+      "numBonusPinFalls": 0
+    }
+  ]
+]
