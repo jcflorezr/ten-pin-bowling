@@ -14,7 +14,7 @@ This app implements some Java 8 features as Lambda functions, Streams and Option
 
 ### Test suite:
 * Unit tests:
-    * [com.bowling.adapter.dto.ScoreRowDTOTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/adapter/dto/ScoreRowDTO.java)
+    * [com.bowling.adapter.dto.ScoreRowDTOTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/adapter/dto/ScoreRowDTOTest.java)
     * [com.bowling.adapter.parser.ScoreParserImplTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/adapter/parser/ScoreParserImplTest.java)
     * [com.bowling.adapter.printer.GamePrinterImplTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/adapter/printer/GamePrinterImplTest.java)
     * [com.bowling.domain.entity.model.GameScoreTest.java](https://github.com/jcflorezr/ten-pin-bowling/tree/master/src/test/java/com/bowling/domain/entity/model/GameScoreTest.java)
